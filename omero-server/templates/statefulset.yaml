@@ -33,7 +33,7 @@ spec:
         # var/tmp isn't automatically created leading to a failure
         # https://github.com/ome/openmicroscopy/issues/6448
         - name: mkdirs
-          image: docker.io/library/busybox:1.37
+          image: docker.io/library/busybox:1.38.0
           command:
             - mkdir
             - -p

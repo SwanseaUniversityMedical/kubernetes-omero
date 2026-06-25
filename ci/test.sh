@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # https://cloudnative-pg.io/docs/1.28/supported_releases#support-status-of-cloudnativepg-releases
-CNPG_VERSION=1.28.1
+CNPG_VERSION=1.29.1
 
 f_green="\n\033[32;1m%s\033[0m\n"
 f_red="\n\033[31;1m%s\033[0m\n"

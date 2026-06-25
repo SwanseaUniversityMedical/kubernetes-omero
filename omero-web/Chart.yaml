@@ -1,6 +1,12 @@
-apiVersion: v1
+apiVersion: v2
 appVersion: 5.32.0
 description: OMERO.web
 name: omero-web
-version: 0.4.14
+type: application
+version: 0.4.15
 icon: https://www.openmicroscopy.org/img/logos/omero-logomark.svg
+dependencies:
+  - name: redis
+    version: 27.0.12
+    repository: https://charts.bitnami.com/bitnami
+    condition: redis.enabled
